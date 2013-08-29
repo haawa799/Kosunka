@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ZI2-oo-jAx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Main Menu View Controller - Main Menu-->
+        <scene sceneID="5">
+            <objects>
+                <viewController title="Main Menu" id="2" customClass="MainMenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdi-h0-bYT">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Settings">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ub9-0O-Ksz" kind="push" id="CjT-7e-zhl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyx-Ch-tBf">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzT-8B-m75">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="High Score">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rdi-h0-bYT" firstAttribute="leading" secondItem="Uyx-Ch-tBf" secondAttribute="leading" type="default" id="Qgw-iC-IdR"/>
+                            <constraint firstItem="Uyx-Ch-tBf" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="UNf-sS-4sk"/>
+                            <constraint firstItem="rdi-h0-bYT" firstAttribute="trailing" secondItem="Uyx-Ch-tBf" secondAttribute="trailing" type="default" id="dVt-a3-vLa"/>
+                            <constraint firstItem="rdi-h0-bYT" firstAttribute="top" secondItem="Uyx-Ch-tBf" secondAttribute="bottom" constant="75" type="user" id="qUZ-qz-Rci"/>
+                            <constraint firstItem="rdi-h0-bYT" firstAttribute="trailing" secondItem="MzT-8B-m75" secondAttribute="trailing" type="default" id="sWy-Yi-of8"/>
+                            <constraint firstItem="MzT-8B-m75" firstAttribute="top" secondItem="rdi-h0-bYT" secondAttribute="bottom" constant="75" type="user" id="ue9-sH-9bq"/>
+                            <constraint firstAttribute="centerY" secondItem="rdi-h0-bYT" secondAttribute="centerY" type="user" id="wDB-PT-2H5"/>
+                            <constraint firstItem="rdi-h0-bYT" firstAttribute="leading" secondItem="MzT-8B-m75" secondAttribute="leading" type="default" id="wds-Py-IqS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vaT-Fq-axu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="701" y="721"/>
+        </scene>
+        <!--Settings View Controller - Settings-->
+        <scene sceneID="Znh-LM-M5w">
+            <objects>
+                <viewController title="Settings" id="ub9-0O-Ksz" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vjB-as-ulb">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lUZ-90-rrj">
+                                <segments>
+                                    <segment title="One card"/>
+                                    <segment title="Three cards"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlChangedValue" destination="ub9-0O-Ksz" eventType="valueChanged" id="5XN-Il-THG"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lUZ-90-rrj" firstAttribute="top" secondItem="vjB-as-ulb" secondAttribute="top" constant="102" id="HqA-kn-xQ5"/>
+                            <constraint firstItem="lUZ-90-rrj" firstAttribute="centerX" secondItem="vjB-as-ulb" secondAttribute="centerX" type="default" id="yLr-7z-tYY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XlJ-BO-BfI"/>
+                    <connections>
+                        <outlet property="cardModeSegmentedControl" destination="lUZ-90-rrj" id="EeR-Au-q6b"/>
+                        <outlet property="cardModeSwitch" destination="lUZ-90-rrj" id="R6M-4F-vyY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dah-Go-JIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="721"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PJ2-Er-g4R">
+            <objects>
+                <navigationController id="ZI2-oo-jAx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wHm-O9-HjX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="huY-oO-ghh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sFE-fh-7L6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="721"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

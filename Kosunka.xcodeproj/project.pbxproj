@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5290F55617353899005D4EFF /* ColumnsOfCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 5290F55517353899005D4EFF /* ColumnsOfCards.m */; };
+		52F392981733B6BD0019EDDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F392971733B6BD0019EDDA /* UIKit.framework */; };
+		52F3929A1733B6BD0019EDDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F392991733B6BD0019EDDA /* Foundation.framework */; };
+		52F3929C1733B6BD0019EDDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F3929B1733B6BD0019EDDA /* CoreGraphics.framework */; };
+		52F392A21733B6BD0019EDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52F392A01733B6BD0019EDDA /* InfoPlist.strings */; };
+		52F392A41733B6BD0019EDDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392A31733B6BD0019EDDA /* main.m */; };
+		52F392A81733B6BE0019EDDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392A71733B6BE0019EDDA /* AppDelegate.m */; };
+		52F392AA1733B6BE0019EDDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392A91733B6BE0019EDDA /* Default.png */; };
+		52F392AC1733B6BE0019EDDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392AB1733B6BE0019EDDA /* Default@2x.png */; };
+		52F392AE1733B6BE0019EDDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392AD1733B6BE0019EDDA /* Default-568h@2x.png */; };
+		52F392B11733B6BE0019EDDA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F392AF1733B6BE0019EDDA /* MainStoryboard_iPhone.storyboard */; };
+		52F392B41733B6BE0019EDDA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F392B21733B6BE0019EDDA /* MainStoryboard_iPad.storyboard */; };
+		52F392B71733B6BE0019EDDA /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392B61733B6BE0019EDDA /* MainMenuViewController.m */; };
+		52F392C31733B71C0019EDDA /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392BE1733B71C0019EDDA /* PlayingCardView.m */; };
+		52F392C41733B71C0019EDDA /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392BF1733B71C0019EDDA /* background@2x.png */; };
+		52F392C51733B71C0019EDDA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392C01733B71C0019EDDA /* background.png */; };
+		52F392C61733B71C0019EDDA /* card_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392C11733B71C0019EDDA /* card_front@2x.png */; };
+		52F392C71733B71C0019EDDA /* card_front.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F392C21733B71C0019EDDA /* card_front.png */; };
+		52F392CF1733CEFB0019EDDA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392CE1733CEFB0019EDDA /* SettingsViewController.m */; };
+		52F392D21733D15A0019EDDA /* Auxility.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392D11733D15A0019EDDA /* Auxility.m */; };
+		52F392D51733D2D30019EDDA /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392D41733D2D30019EDDA /* Card.m */; };
+		52F392D81733D3950019EDDA /* ClassicPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392D71733D3950019EDDA /* ClassicPlayingCard.m */; };
+		52F392DB1733E0330019EDDA /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392DA1733E0330019EDDA /* Deck.m */; };
+		52F392DE1733E5060019EDDA /* ClassicPlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392DD1733E5060019EDDA /* ClassicPlayingCardDeck.m */; };
+		52F392E11733E7160019EDDA /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392E01733E7160019EDDA /* GameViewController.m */; };
+		52F392E417340CA80019EDDA /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F392E317340CA80019EDDA /* Game.m */; };
+		52F8CF1A173C17B600D7EB42 /* CardHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8CF19173C17B600D7EB42 /* CardHolderView.m */; };
+		52F8CF1D173C269C00D7EB42 /* SuitPitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8CF1C173C269C00D7EB42 /* SuitPitView.m */; };
+		52F8CF20173FC24200D7EB42 /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8CF1F173FC24200D7EB42 /* UIBAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5290F55417353899005D4EFF /* ColumnsOfCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnsOfCards.h; sourceTree = "<group>"; };
+		5290F55517353899005D4EFF /* ColumnsOfCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnsOfCards.m; sourceTree = "<group>"; };
+		52F392941733B6BD0019EDDA /* Kosunka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kosunka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F392971733B6BD0019EDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52F392991733B6BD0019EDDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52F3929B1733B6BD0019EDDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52F3929F1733B6BD0019EDDA /* Kosunka-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kosunka-Info.plist"; sourceTree = "<group>"; };
+		52F392A11733B6BD0019EDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52F392A31733B6BD0019EDDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52F392A51733B6BD0019EDDA /* Kosunka-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kosunka-Prefix.pch"; sourceTree = "<group>"; };
+		52F392A61733B6BE0019EDDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52F392A71733B6BE0019EDDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52F392A91733B6BE0019EDDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		52F392AB1733B6BE0019EDDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		52F392AD1733B6BE0019EDDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		52F392B01733B6BE0019EDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		52F392B31733B6BE0019EDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		52F392B51733B6BE0019EDDA /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		52F392B61733B6BE0019EDDA /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		52F392BD1733B71C0019EDDA /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardView.h; path = ../PlayingCardView.h; sourceTree = "<group>"; };
+		52F392BE1733B71C0019EDDA /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardView.m; path = ../PlayingCardView.m; sourceTree = "<group>"; };
+		52F392BF1733B71C0019EDDA /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "../background@2x.png"; sourceTree = "<group>"; };
+		52F392C01733B71C0019EDDA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../background.png; sourceTree = "<group>"; };
+		52F392C11733B71C0019EDDA /* card_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card_front@2x.png"; path = "../card_front@2x.png"; sourceTree = "<group>"; };
+		52F392C21733B71C0019EDDA /* card_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_front.png; path = ../card_front.png; sourceTree = "<group>"; };
+		52F392CD1733CEFB0019EDDA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		52F392CE1733CEFB0019EDDA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		52F392D01733D15A0019EDDA /* Auxility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auxility.h; sourceTree = "<group>"; };
+		52F392D11733D15A0019EDDA /* Auxility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auxility.m; sourceTree = "<group>"; };
+		52F392D31733D2D30019EDDA /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		52F392D41733D2D30019EDDA /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		52F392D61733D3950019EDDA /* ClassicPlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassicPlayingCard.h; sourceTree = "<group>"; };
+		52F392D71733D3950019EDDA /* ClassicPlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicPlayingCard.m; sourceTree = "<group>"; };
+		52F392D91733E0330019EDDA /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		52F392DA1733E0330019EDDA /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		52F392DC1733E5060019EDDA /* ClassicPlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassicPlayingCardDeck.h; sourceTree = "<group>"; };
+		52F392DD1733E5060019EDDA /* ClassicPlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicPlayingCardDeck.m; sourceTree = "<group>"; };
+		52F392DF1733E7160019EDDA /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		52F392E01733E7160019EDDA /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		52F392E217340CA80019EDDA /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		52F392E317340CA80019EDDA /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		52F8CF18173C17B600D7EB42 /* CardHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardHolderView.h; sourceTree = "<group>"; };
+		52F8CF19173C17B600D7EB42 /* CardHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardHolderView.m; sourceTree = "<group>"; };
+		52F8CF1B173C269C00D7EB42 /* SuitPitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuitPitView.h; sourceTree = "<group>"; };
+		52F8CF1C173C269C00D7EB42 /* SuitPitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuitPitView.m; sourceTree = "<group>"; };
+		52F8CF1E173FC24200D7EB42 /* UIBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBAlertView.h; sourceTree = "<group>"; };
+		52F8CF1F173FC24200D7EB42 /* UIBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F392911733B6BD0019EDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F392981733B6BD0019EDDA /* UIKit.framework in Frameworks */,
+				52F3929A1733B6BD0019EDDA /* Foundation.framework in Frameworks */,
+				52F3929C1733B6BD0019EDDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F3928B1733B6BD0019EDDA = {
+			isa = PBXGroup;
+			children = (
+				52F3929D1733B6BD0019EDDA /* Kosunka */,
+				52F392961733B6BD0019EDDA /* Frameworks */,
+				52F392951733B6BD0019EDDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F392951733B6BD0019EDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F392941733B6BD0019EDDA /* Kosunka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F392961733B6BD0019EDDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52F392971733B6BD0019EDDA /* UIKit.framework */,
+				52F392991733B6BD0019EDDA /* Foundation.framework */,
+				52F3929B1733B6BD0019EDDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52F3929D1733B6BD0019EDDA /* Kosunka */ = {
+			isa = PBXGroup;
+			children = (
+				52F392CC1733B7C70019EDDA /* Model */,
+				52F392CA1733B75B0019EDDA /* ViewControllers */,
+				52F392C81733B72C0019EDDA /* Views */,
+				52F392AF1733B6BE0019EDDA /* MainStoryboard_iPhone.storyboard */,
+				52F392B21733B6BE0019EDDA /* MainStoryboard_iPad.storyboard */,
+				52F3929E1733B6BD0019EDDA /* Supporting Files */,
+			);
+			path = Kosunka;
+			sourceTree = "<group>";
+		};
+		52F3929E1733B6BD0019EDDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52F8CF1E173FC24200D7EB42 /* UIBAlertView.h */,
+				52F8CF1F173FC24200D7EB42 /* UIBAlertView.m */,
+				52F392A61733B6BE0019EDDA /* AppDelegate.h */,
+				52F392A71733B6BE0019EDDA /* AppDelegate.m */,
+				52F392BF1733B71C0019EDDA /* background@2x.png */,
+				52F392C01733B71C0019EDDA /* background.png */,
+				52F392C11733B71C0019EDDA /* card_front@2x.png */,
+				52F392C21733B71C0019EDDA /* card_front.png */,
+				52F3929F1733B6BD0019EDDA /* Kosunka-Info.plist */,
+				52F392A01733B6BD0019EDDA /* InfoPlist.strings */,
+				52F392A31733B6BD0019EDDA /* main.m */,
+				52F392A51733B6BD0019EDDA /* Kosunka-Prefix.pch */,
+				52F392A91733B6BE0019EDDA /* Default.png */,
+				52F392AB1733B6BE0019EDDA /* Default@2x.png */,
+				52F392AD1733B6BE0019EDDA /* Default-568h@2x.png */,
+				52F392D01733D15A0019EDDA /* Auxility.h */,
+				52F392D11733D15A0019EDDA /* Auxility.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52F392C81733B72C0019EDDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52F392BD1733B71C0019EDDA /* PlayingCardView.h */,
+				52F392BE1733B71C0019EDDA /* PlayingCardView.m */,
+				5290F55417353899005D4EFF /* ColumnsOfCards.h */,
+				5290F55517353899005D4EFF /* ColumnsOfCards.m */,
+				52F8CF18173C17B600D7EB42 /* CardHolderView.h */,
+				52F8CF19173C17B600D7EB42 /* CardHolderView.m */,
+				52F8CF1B173C269C00D7EB42 /* SuitPitView.h */,
+				52F8CF1C173C269C00D7EB42 /* SuitPitView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52F392CA1733B75B0019EDDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52F392B51733B6BE0019EDDA /* MainMenuViewController.h */,
+				52F392B61733B6BE0019EDDA /* MainMenuViewController.m */,
+				52F392CD1733CEFB0019EDDA /* SettingsViewController.h */,
+				52F392CE1733CEFB0019EDDA /* SettingsViewController.m */,
+				52F392DF1733E7160019EDDA /* GameViewController.h */,
+				52F392E01733E7160019EDDA /* GameViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52F392CC1733B7C70019EDDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52F392D31733D2D30019EDDA /* Card.h */,
+				52F392D41733D2D30019EDDA /* Card.m */,
+				52F392D61733D3950019EDDA /* ClassicPlayingCard.h */,
+				52F392D71733D3950019EDDA /* ClassicPlayingCard.m */,
+				52F392D91733E0330019EDDA /* Deck.h */,
+				52F392DA1733E0330019EDDA /* Deck.m */,
+				52F392DC1733E5060019EDDA /* ClassicPlayingCardDeck.h */,
+				52F392DD1733E5060019EDDA /* ClassicPlayingCardDeck.m */,
+				52F392E217340CA80019EDDA /* Game.h */,
+				52F392E317340CA80019EDDA /* Game.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F392931733B6BD0019EDDA /* Kosunka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F392BA1733B6BE0019EDDA /* Build configuration list for PBXNativeTarget "Kosunka" */;
+			buildPhases = (
+				52F392901733B6BD0019EDDA /* Sources */,
+				52F392911733B6BD0019EDDA /* Frameworks */,
+				52F392921733B6BD0019EDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kosunka;
+			productName = Kosunka;
+			productReference = 52F392941733B6BD0019EDDA /* Kosunka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F3928C1733B6BD0019EDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = kharchyshyn.andrew;
+			};
+			buildConfigurationList = 52F3928F1733B6BD0019EDDA /* Build configuration list for PBXProject "Kosunka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52F3928B1733B6BD0019EDDA;
+			productRefGroup = 52F392951733B6BD0019EDDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F392931733B6BD0019EDDA /* Kosunka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F392921733B6BD0019EDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F392A21733B6BD0019EDDA /* InfoPlist.strings in Resources */,
+				52F392AA1733B6BE0019EDDA /* Default.png in Resources */,
+				52F392AC1733B6BE0019EDDA /* Default@2x.png in Resources */,
+				52F392AE1733B6BE0019EDDA /* Default-568h@2x.png in Resources */,
+				52F392B11733B6BE0019EDDA /* MainStoryboard_iPhone.storyboard in Resources */,
+				52F392B41733B6BE0019EDDA /* MainStoryboard_iPad.storyboard in Resources */,
+				52F392C41733B71C0019EDDA /* background@2x.png in Resources */,
+				52F392C51733B71C0019EDDA /* background.png in Resources */,
+				52F392C61733B71C0019EDDA /* card_front@2x.png in Resources */,
+				52F392C71733B71C0019EDDA /* card_front.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F392901733B6BD0019EDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F392A41733B6BD0019EDDA /* main.m in Sources */,
+				52F392A81733B6BE0019EDDA /* AppDelegate.m in Sources */,
+				52F392B71733B6BE0019EDDA /* MainMenuViewController.m in Sources */,
+				52F392C31733B71C0019EDDA /* PlayingCardView.m in Sources */,
+				52F392CF1733CEFB0019EDDA /* SettingsViewController.m in Sources */,
+				52F392D21733D15A0019EDDA /* Auxility.m in Sources */,
+				52F392D51733D2D30019EDDA /* Card.m in Sources */,
+				52F392D81733D3950019EDDA /* ClassicPlayingCard.m in Sources */,
+				52F392DB1733E0330019EDDA /* Deck.m in Sources */,
+				52F392DE1733E5060019EDDA /* ClassicPlayingCardDeck.m in Sources */,
+				52F392E11733E7160019EDDA /* GameViewController.m in Sources */,
+				52F392E417340CA80019EDDA /* Game.m in Sources */,
+				5290F55617353899005D4EFF /* ColumnsOfCards.m in Sources */,
+				52F8CF1A173C17B600D7EB42 /* CardHolderView.m in Sources */,
+				52F8CF1D173C269C00D7EB42 /* SuitPitView.m in Sources */,
+				52F8CF20173FC24200D7EB42 /* UIBAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52F392A01733B6BD0019EDDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F392A11733B6BD0019EDDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52F392AF1733B6BE0019EDDA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F392B01733B6BE0019EDDA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		52F392B21733B6BE0019EDDA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F392B31733B6BE0019EDDA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F392B81733B6BE0019EDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F392B91733B6BE0019EDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F392BB1733B6BE0019EDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kosunka/Kosunka-Prefix.pch";
+				INFOPLIST_FILE = "Kosunka/Kosunka-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52F392BC1733B6BE0019EDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kosunka/Kosunka-Prefix.pch";
+				INFOPLIST_FILE = "Kosunka/Kosunka-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F3928F1733B6BD0019EDDA /* Build configuration list for PBXProject "Kosunka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F392B81733B6BE0019EDDA /* Debug */,
+				52F392B91733B6BE0019EDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F392BA1733B6BE0019EDDA /* Build configuration list for PBXNativeTarget "Kosunka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F392BB1733B6BE0019EDDA /* Debug */,
+				52F392BC1733B6BE0019EDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F3928C1733B6BD0019EDDA /* Project object */;
+}
